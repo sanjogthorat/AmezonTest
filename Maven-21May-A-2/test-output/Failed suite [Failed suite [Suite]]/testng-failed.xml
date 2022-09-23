@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)(failed)(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tempTestPack.TestNgTestClass">
+        <methods>
+          <include name="cleanPOMobjects"/>
+          <include name="addTheQuantityOfProductInCart"/>
+          <include name="launchTheBrowser"/>
+          <include name="closedBrowser"/>
+          <include name="addMobileInCart"/>
+          <include name="logOutThePage"/>
+          <include name="createObjects"/>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- tempTestPack.TestNgTestClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
