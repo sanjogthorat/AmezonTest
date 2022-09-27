@@ -26,7 +26,7 @@ public class Utility {
 	    String m = date.format(systemdate);
 		TakesScreenshot take = (TakesScreenshot)driver;
 		File source = take.getScreenshotAs(OutputType.FILE);
-		File destination = new File("test-output\\Fail TestScreenshots\\Test"+testId+""+m+".jpg");
+		File destination = new File("test-output\\FailScreenshots\\Test"+testId+""+m+".jpg");
 		FileHandler.copy(source, destination);
 	}
 	

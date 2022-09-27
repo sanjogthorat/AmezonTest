@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
+<testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-27T15:17:16 IST" name="Suite" finished-at="2022-09-27T15:21:59 IST" duration-ms="283156">
+  <suite started-at="2022-09-27T16:00:14 IST" name="Suite" finished-at="2022-09-27T16:02:26 IST" duration-ms="132422">
     <groups>
     </groups>
-    <test started-at="2022-09-27T15:17:16 IST" name="ChromeTest" finished-at="2022-09-27T15:21:59 IST" duration-ms="283156">
+    <test started-at="2022-09-27T16:00:14 IST" name="ChromeTest" finished-at="2022-09-27T16:02:26 IST" duration-ms="132422">
       <class name="tempTestPack.TestNgTestClass2">
-        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:17:20 IST" name="launchTheBrowser" finished-at="2022-09-27T15:17:31 IST" duration-ms="11101" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20]" started-at="2022-09-27T16:00:14 IST" name="launchTheBrowser" finished-at="2022-09-27T16:00:17 IST" duration-ms="3230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,23 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="createObjects()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:20:53 IST" name="createObjects" finished-at="2022-09-27T15:20:53 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20]" started-at="2022-09-27T16:00:17 IST" name="createObjects" finished-at="2022-09-27T16:00:17 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createObjects -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:20:53 IST" name="signIn" finished-at="2022-09-27T15:21:03 IST" duration-ms="10109" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20]" started-at="2022-09-27T16:00:17 IST" name="signIn" finished-at="2022-09-27T16:00:48 IST" duration-ms="30499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="test1()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:03 IST" name="test1" finished-at="2022-09-27T15:21:49 IST" duration-ms="46279" status="PASS">
+        <test-method signature="test1()[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20]" started-at="2022-09-27T16:00:48 IST" name="test1" finished-at="2022-09-27T16:02:12 IST" duration-ms="84320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:49 IST" name="logOutThePage" finished-at="2022-09-27T15:21:57 IST" duration-ms="7738" status="FAIL">
+        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20]" started-at="2022-09-27T16:02:13 IST" name="logOutThePage" finished-at="2022-09-27T16:02:26 IST" duration-ms="13197" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=SUCCESS method=TestNgTestClass2.test1()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=TestNgTestClass2.test1()[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20] output={null}]]]>
               </value>
             </param>
           </params>
@@ -45,8 +45,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54011a27cbf73a86ea53688679a3a14b]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b3829766b105cdf178dc2e8e6465b3d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLSpanElement] has no size and location
@@ -54,8 +54,8 @@ Session ID: 54011a27cbf73a86ea53688679a3a14b]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54011a27cbf73a86ea53688679a3a14b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b3829766b105cdf178dc2e8e6465b3d
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -106,11 +106,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:57 IST" name="signIn" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664272317627" status="SKIP">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20]" started-at="2022-09-27T16:02:26 IST" name="signIn" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664274746672" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="test2()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:57 IST" name="test2" finished-at="2022-09-27T15:21:57 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test2()[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20]" started-at="2022-09-27T16:02:26 IST" name="test2" finished-at="2022-09-27T16:02:26 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable: [object HTMLSpanElement] has no size and location
@@ -118,8 +118,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54011a27cbf73a86ea53688679a3a14b]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b3829766b105cdf178dc2e8e6465b3d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLSpanElement] has no size and location
@@ -127,8 +127,8 @@ Session ID: 54011a27cbf73a86ea53688679a3a14b]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54011a27cbf73a86ea53688679a3a14b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b3829766b105cdf178dc2e8e6465b3d
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -179,82 +179,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:57 IST" name="logOutThePage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664272317641" status="SKIP">
+        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20]" started-at="2022-09-27T16:02:26 IST" name="logOutThePage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664274746695" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="cleanPOMObjects()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:57 IST" name="cleanPOMObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664272317647" status="SKIP">
+        <test-method is-config="true" signature="cleanPOMObjects()[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20]" started-at="2022-09-27T16:02:26 IST" name="cleanPOMObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664274746698" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanPOMObjects -->
-        <test-method is-config="true" signature="closedBrower()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:57 IST" name="closedBrower" finished-at="2022-09-27T15:21:59 IST" duration-ms="1913" status="PASS">
+        <test-method is-config="true" signature="closedBrower()[pri:0, instance:tempTestPack.TestNgTestClass2@4466af20]" started-at="2022-09-27T16:02:26 IST" name="closedBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664274746703" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrower -->
       </class> <!-- tempTestPack.TestNgTestClass2 -->
-      <class name="tempTestPack.TestNgTestClass">
-        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:17:16 IST" name="launchTheBrowser" finished-at="2022-09-27T15:17:20 IST" duration-ms="4203" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="createObjects()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:17:31 IST" name="createObjects" finished-at="2022-09-27T15:17:32 IST" duration-ms="258" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createObjects -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:17:32 IST" name="signIn" finished-at="2022-09-27T15:17:43 IST" duration-ms="10977" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addTheQuantityOfProductInCart()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:17:43 IST" name="addTheQuantityOfProductInCart" finished-at="2022-09-27T15:18:27 IST" duration-ms="44337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addTheQuantityOfProductInCart -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:18:27 IST" name="logOutThePage" finished-at="2022-09-27T15:18:49 IST" duration-ms="22376" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addTheQuantityOfProductInCart status=SUCCESS method=TestNgTestClass.addTheQuantityOfProductInCart()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:18:49 IST" name="signIn" finished-at="2022-09-27T15:18:59 IST" duration-ms="9519" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addMobileInCart()[pri:1, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:18:59 IST" name="addMobileInCart" finished-at="2022-09-27T15:19:43 IST" duration-ms="44141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addMobileInCart -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:19:43 IST" name="logOutThePage" finished-at="2022-09-27T15:20:53 IST" duration-ms="69893" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addMobileInCart status=SUCCESS method=TestNgTestClass.addMobileInCart()[pri:1, instance:tempTestPack.TestNgTestClass@4fb0f2b9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="cleanPOMobjects()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:20:53 IST" name="cleanPOMobjects" finished-at="2022-09-27T15:20:53 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanPOMobjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:21:57 IST" name="closedBrowser" finished-at="2022-09-27T15:21:57 IST" duration-ms="152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closedBrowser -->
-      </class> <!-- tempTestPack.TestNgTestClass -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
