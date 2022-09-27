@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="3" failed="3" skipped="2">
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-21T19:00:52 IST" name="Suite" finished-at="2022-09-21T19:07:57 IST" duration-ms="424567">
+  <suite started-at="2022-09-27T15:17:16 IST" name="Suite" finished-at="2022-09-27T15:21:59 IST" duration-ms="283156">
     <groups>
     </groups>
-    <test started-at="2022-09-21T19:00:52 IST" name="ChromeTest" finished-at="2022-09-21T19:05:54 IST" duration-ms="301668">
+    <test started-at="2022-09-27T15:17:16 IST" name="ChromeTest" finished-at="2022-09-27T15:21:59 IST" duration-ms="283156">
       <class name="tempTestPack.TestNgTestClass2">
-        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9]" started-at="2022-09-21T19:00:55 IST" name="launchTheBrowser" finished-at="2022-09-21T19:00:57 IST" duration-ms="2190" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:17:20 IST" name="launchTheBrowser" finished-at="2022-09-27T15:17:31 IST" duration-ms="11101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,117 +18,44 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="createObjects()[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9]" started-at="2022-09-21T19:00:57 IST" name="createObjects" finished-at="2022-09-21T19:00:57 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:20:53 IST" name="createObjects" finished-at="2022-09-27T15:20:53 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createObjects -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9]" started-at="2022-09-21T19:00:57 IST" name="signIn" finished-at="2022-09-21T19:01:09 IST" duration-ms="11763" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:20:53 IST" name="signIn" finished-at="2022-09-27T15:21:03 IST" duration-ms="10109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="test1()[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9]" started-at="2022-09-21T19:01:09 IST" name="test1" finished-at="2022-09-21T19:02:53 IST" duration-ms="103461" status="PASS">
+        <test-method signature="test1()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:03 IST" name="test1" finished-at="2022-09-27T15:21:49 IST" duration-ms="46279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9]" started-at="2022-09-21T19:02:53 IST" name="logOutThePage" finished-at="2022-09-21T19:03:18 IST" duration-ms="25610" status="PASS">
+        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:49 IST" name="logOutThePage" finished-at="2022-09-27T15:21:57 IST" duration-ms="7738" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=SUCCESS method=TestNgTestClass2.test1()[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=TestNgTestClass2.test1()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38] output={null}]]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9]" started-at="2022-09-21T19:03:18 IST" name="signIn" finished-at="2022-09-21T19:04:03 IST" duration-ms="45267" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="test2()[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9]" started-at="2022-09-21T19:04:03 IST" name="test2" finished-at="2022-09-21T19:04:37 IST" duration-ms="33475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9]" started-at="2022-09-21T19:04:37 IST" name="logOutThePage" finished-at="2022-09-21T19:04:46 IST" duration-ms="9532" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=TestNgTestClass2.test2()[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="cleanPOMObjects()[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9]" started-at="2022-09-21T19:04:46 IST" name="cleanPOMObjects" finished-at="2022-09-21T19:04:46 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanPOMObjects -->
-        <test-method is-config="true" signature="closedBrower()[pri:0, instance:tempTestPack.TestNgTestClass2@4fb0f2b9]" started-at="2022-09-21T19:05:54 IST" name="closedBrower" finished-at="2022-09-21T19:05:54 IST" duration-ms="274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closedBrower -->
-      </class> <!-- tempTestPack.TestNgTestClass2 -->
-      <class name="tempTestPack.TestNgTestClass">
-        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tempTestPack.TestNgTestClass@12468a38]" started-at="2022-09-21T19:00:52 IST" name="launchTheBrowser" finished-at="2022-09-21T19:00:55 IST" duration-ms="2884" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="createObjects()[pri:0, instance:tempTestPack.TestNgTestClass@12468a38]" started-at="2022-09-21T19:04:46 IST" name="createObjects" finished-at="2022-09-21T19:04:46 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createObjects -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass@12468a38]" started-at="2022-09-21T19:04:46 IST" name="signIn" finished-at="2022-09-21T19:04:56 IST" duration-ms="9756" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addTheQuantityOfProductInCart()[pri:0, instance:tempTestPack.TestNgTestClass@12468a38]" started-at="2022-09-21T19:04:56 IST" name="addTheQuantityOfProductInCart" finished-at="2022-09-21T19:05:19 IST" duration-ms="22904" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addTheQuantityOfProductInCart -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass@12468a38]" started-at="2022-09-21T19:05:19 IST" name="logOutThePage" finished-at="2022-09-21T19:05:28 IST" duration-ms="9360" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addTheQuantityOfProductInCart status=SUCCESS method=TestNgTestClass.addTheQuantityOfProductInCart()[pri:0, instance:tempTestPack.TestNgTestClass@12468a38] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass@12468a38]" started-at="2022-09-21T19:05:28 IST" name="signIn" finished-at="2022-09-21T19:05:36 IST" duration-ms="7859" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addMobileInCart()[pri:1, instance:tempTestPack.TestNgTestClass@12468a38]" started-at="2022-09-21T19:05:36 IST" name="addMobileInCart" finished-at="2022-09-21T19:05:38 IST" duration-ms="2003" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[stale element reference: element is not attached to the page document
+              <![CDATA[element not interactable: [object HTMLSpanElement] has no size and location
   (Session info: chrome=105.0.5195.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4d4d230e506972d7260fc32c92b7c663]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54011a27cbf73a86ea53688679a3a14b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLSpanElement] has no size and location
   (Session info: chrome=105.0.5195.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4d4d230e506972d7260fc32c92b7c663
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54011a27cbf73a86ea53688679a3a14b
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -138,18 +65,19 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-at pages.AmezonHomePage.sendMobibeNameInSearchField(AmezonHomePage.java:69)
-at tempTestPack.TestNgTestClass.addMobileInCart(TestNgTestClass.java:101)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at pages.AmezonHomePage.clickOnSignOut(AmezonHomePage.java:81)
+at tempTestPack.TestNgTestClass2.logOutThePage(TestNgTestClass2.java:125)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -174,624 +102,159 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addMobileInCart -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass@12468a38]" started-at="2022-09-21T19:05:38 IST" name="logOutThePage" finished-at="2022-09-21T19:05:53 IST" duration-ms="14793" status="PASS">
+        </test-method> <!-- logOutThePage -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:57 IST" name="signIn" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664272317627" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="test2()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:57 IST" name="test2" finished-at="2022-09-27T15:21:57 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable: [object HTMLSpanElement] has no size and location
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54011a27cbf73a86ea53688679a3a14b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLSpanElement] has no size and location
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Sanjog\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54011a27cbf73a86ea53688679a3a14b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at pages.AmezonHomePage.clickOnSignOut(AmezonHomePage.java:81)
+at tempTestPack.TestNgTestClass2.logOutThePage(TestNgTestClass2.java:125)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:57 IST" name="logOutThePage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664272317641" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutThePage -->
+        <test-method is-config="true" signature="cleanPOMObjects()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:57 IST" name="cleanPOMObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664272317647" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanPOMObjects -->
+        <test-method is-config="true" signature="closedBrower()[pri:0, instance:tempTestPack.TestNgTestClass2@12468a38]" started-at="2022-09-27T15:21:57 IST" name="closedBrower" finished-at="2022-09-27T15:21:59 IST" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrower -->
+      </class> <!-- tempTestPack.TestNgTestClass2 -->
+      <class name="tempTestPack.TestNgTestClass">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:17:16 IST" name="launchTheBrowser" finished-at="2022-09-27T15:17:20 IST" duration-ms="4203" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addMobileInCart status=FAILURE method=TestNgTestClass.addMobileInCart()[pri:1, instance:tempTestPack.TestNgTestClass@12468a38] output={null}]]]>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:17:31 IST" name="createObjects" finished-at="2022-09-27T15:17:32 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjects -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:17:32 IST" name="signIn" finished-at="2022-09-27T15:17:43 IST" duration-ms="10977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="addTheQuantityOfProductInCart()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:17:43 IST" name="addTheQuantityOfProductInCart" finished-at="2022-09-27T15:18:27 IST" duration-ms="44337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTheQuantityOfProductInCart -->
+        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:18:27 IST" name="logOutThePage" finished-at="2022-09-27T15:18:49 IST" duration-ms="22376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addTheQuantityOfProductInCart status=SUCCESS method=TestNgTestClass.addTheQuantityOfProductInCart()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="cleanPOMobjects()[pri:0, instance:tempTestPack.TestNgTestClass@12468a38]" started-at="2022-09-21T19:05:53 IST" name="cleanPOMobjects" finished-at="2022-09-21T19:05:53 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:18:49 IST" name="signIn" finished-at="2022-09-27T15:18:59 IST" duration-ms="9519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="addMobileInCart()[pri:1, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:18:59 IST" name="addMobileInCart" finished-at="2022-09-27T15:19:43 IST" duration-ms="44141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMobileInCart -->
+        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:19:43 IST" name="logOutThePage" finished-at="2022-09-27T15:20:53 IST" duration-ms="69893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addMobileInCart status=SUCCESS method=TestNgTestClass.addMobileInCart()[pri:1, instance:tempTestPack.TestNgTestClass@4fb0f2b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutThePage -->
+        <test-method is-config="true" signature="cleanPOMobjects()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:20:53 IST" name="cleanPOMobjects" finished-at="2022-09-27T15:20:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanPOMobjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tempTestPack.TestNgTestClass@12468a38]" started-at="2022-09-21T19:05:53 IST" name="closedBrowser" finished-at="2022-09-21T19:05:54 IST" duration-ms="441" status="PASS">
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tempTestPack.TestNgTestClass@4fb0f2b9]" started-at="2022-09-27T15:21:57 IST" name="closedBrowser" finished-at="2022-09-27T15:21:57 IST" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrowser -->
       </class> <!-- tempTestPack.TestNgTestClass -->
     </test> <!-- ChromeTest -->
-    <test started-at="2022-09-21T19:05:54 IST" name="FireFoxTest" finished-at="2022-09-21T19:07:57 IST" duration-ms="122864">
-      <class name="tempTestPack.TestNgTestClass2">
-        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6]" started-at="2022-09-21T19:06:14 IST" name="launchTheBrowser" finished-at="2022-09-21T19:06:20 IST" duration-ms="5579" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FireFox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="createObjects()[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6]" started-at="2022-09-21T19:06:20 IST" name="createObjects" finished-at="2022-09-21T19:06:20 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createObjects -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6]" started-at="2022-09-21T19:06:20 IST" name="signIn" finished-at="2022-09-21T19:06:43 IST" duration-ms="22896" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="test1()[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6]" started-at="2022-09-21T19:06:43 IST" name="test1" finished-at="2022-09-21T19:07:03 IST" duration-ms="20023" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //span[@class='hm-icon-label']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5920, moz:profile: C:\Users\Sanjog\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 054dcc6c-2495-4446-8a9a-e83f414d8b2c
-*** Element info: {Using=xpath, value=//span[@class='hm-icon-label']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[@class='hm-icon-label']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5920, moz:profile: C:\Users\Sanjog\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 054dcc6c-2495-4446-8a9a-e83f414d8b2c
-*** Element info: {Using=xpath, value=//span[@class='hm-icon-label']}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at pages.AmezonHomePage.clickOnAllButton(AmezonHomePage.java:46)
-at tempTestPack.TestNgTestClass2.test1(TestNgTestClass2.java:89)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6]" started-at="2022-09-21T19:07:03 IST" name="logOutThePage" finished-at="2022-09-21T19:07:16 IST" duration-ms="13206" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test1 status=FAILURE method=TestNgTestClass2.test1()[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.json.JsonException">
-            <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
-at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
-at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
-at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
-at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
-at org.openqa.selenium.json.Json.toJson(Json.java:42)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at pages.AmezonHomePage.clickOnSignOut(AmezonHomePage.java:81)
-at tempTestPack.TestNgTestClass2.logOutThePage(TestNgTestClass2.java:125)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
-at org.openqa.selenium.json.Json.toJson(Json.java:44)
-... 40 more
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
-... 52 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[@class='nav-line-2 ']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5920, moz:profile: C:\Users\Sanjog\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 054dcc6c-2495-4446-8a9a-e83f414d8b2c
-*** Element info: {Using=xpath, value=//span[@class='nav-line-2 ']}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
-at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-... 54 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6]" started-at="2022-09-21T19:07:16 IST" name="signIn" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663767436731" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="test2()[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6]" started-at="2022-09-21T19:07:16 IST" name="test2" finished-at="2022-09-21T19:07:16 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.json.JsonException">
-            <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
-at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
-at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
-at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
-at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
-at org.openqa.selenium.json.Json.toJson(Json.java:42)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at pages.AmezonHomePage.clickOnSignOut(AmezonHomePage.java:81)
-at tempTestPack.TestNgTestClass2.logOutThePage(TestNgTestClass2.java:125)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
-at org.openqa.selenium.json.Json.toJson(Json.java:44)
-... 40 more
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
-... 52 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[@class='nav-line-2 ']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5920, moz:profile: C:\Users\Sanjog\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 054dcc6c-2495-4446-8a9a-e83f414d8b2c
-*** Element info: {Using=xpath, value=//span[@class='nav-line-2 ']}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
-at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-... 54 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6]" started-at="2022-09-21T19:07:16 IST" name="logOutThePage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663767436751" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="cleanPOMObjects()[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6]" started-at="2022-09-21T19:07:16 IST" name="cleanPOMObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663767436752" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanPOMObjects -->
-        <test-method is-config="true" signature="closedBrower()[pri:0, instance:tempTestPack.TestNgTestClass2@293a5bf6]" started-at="2022-09-21T19:07:57 IST" name="closedBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663767477267" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closedBrower -->
-      </class> <!-- tempTestPack.TestNgTestClass2 -->
-      <class name="tempTestPack.TestNgTestClass">
-        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tempTestPack.TestNgTestClass@6aeb35e6]" started-at="2022-09-21T19:05:54 IST" name="launchTheBrowser" finished-at="2022-09-21T19:06:14 IST" duration-ms="20588" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FireFox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="createObjects()[pri:0, instance:tempTestPack.TestNgTestClass@6aeb35e6]" started-at="2022-09-21T19:07:16 IST" name="createObjects" finished-at="2022-09-21T19:07:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createObjects -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass@6aeb35e6]" started-at="2022-09-21T19:07:16 IST" name="signIn" finished-at="2022-09-21T19:07:28 IST" duration-ms="11867" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addTheQuantityOfProductInCart()[pri:0, instance:tempTestPack.TestNgTestClass@6aeb35e6]" started-at="2022-09-21T19:07:28 IST" name="addTheQuantityOfProductInCart" finished-at="2022-09-21T19:07:47 IST" duration-ms="18405" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //a[@id='quantity_1']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 6588, moz:profile: C:\Users\Sanjog\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4b0dcdeb-8e58-4666-bc20-7e2cf60abe08
-*** Element info: {Using=xpath, value=//a[@id='quantity_1']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@id='quantity_1']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 6588, moz:profile: C:\Users\Sanjog\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4b0dcdeb-8e58-4666-bc20-7e2cf60abe08
-*** Element info: {Using=xpath, value=//a[@id='quantity_1']}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at pages.HomePage4AmezoninShoppingCart.addTheQuantityOfProduct(HomePage4AmezoninShoppingCart.java:27)
-at tempTestPack.TestNgTestClass.addTheQuantityOfProductInCart(TestNgTestClass.java:89)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addTheQuantityOfProductInCart -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass@6aeb35e6]" started-at="2022-09-21T19:07:47 IST" name="logOutThePage" finished-at="2022-09-21T19:07:57 IST" duration-ms="10187" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addTheQuantityOfProductInCart status=FAILURE method=TestNgTestClass.addTheQuantityOfProductInCart()[pri:0, instance:tempTestPack.TestNgTestClass@6aeb35e6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[Origin element is not displayed
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 6588, moz:profile: C:\Users\Sanjog\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4b0dcdeb-8e58-4666-bc20-7e2cf60abe08]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element is not displayed
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 6588, moz:profile: C:\Users\Sanjog\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4b0dcdeb-8e58-4666-bc20-7e2cf60abe08
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at pages.AmezonHomePage.clickOnSignOut(AmezonHomePage.java:81)
-at tempTestPack.TestNgTestClass.logOutThePage(TestNgTestClass.java:127)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="signIn()[pri:0, instance:tempTestPack.TestNgTestClass@6aeb35e6]" started-at="2022-09-21T19:07:57 IST" name="signIn" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663767477223" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="addMobileInCart()[pri:1, instance:tempTestPack.TestNgTestClass@6aeb35e6]" started-at="2022-09-21T19:07:57 IST" name="addMobileInCart" finished-at="2022-09-21T19:07:57 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[Origin element is not displayed
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 6588, moz:profile: C:\Users\Sanjog\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4b0dcdeb-8e58-4666-bc20-7e2cf60abe08]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element is not displayed
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANJOG-PC', ip: '192.168.43.245', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 6588, moz:profile: C:\Users\Sanjog\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4b0dcdeb-8e58-4666-bc20-7e2cf60abe08
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at pages.AmezonHomePage.clickOnSignOut(AmezonHomePage.java:81)
-at tempTestPack.TestNgTestClass.logOutThePage(TestNgTestClass.java:127)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addMobileInCart -->
-        <test-method is-config="true" signature="logOutThePage(org.testng.ITestResult)[pri:0, instance:tempTestPack.TestNgTestClass@6aeb35e6]" started-at="2022-09-21T19:07:57 IST" name="logOutThePage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663767477249" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutThePage -->
-        <test-method is-config="true" signature="cleanPOMobjects()[pri:0, instance:tempTestPack.TestNgTestClass@6aeb35e6]" started-at="2022-09-21T19:07:57 IST" name="cleanPOMobjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663767477262" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanPOMobjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tempTestPack.TestNgTestClass@6aeb35e6]" started-at="2022-09-21T19:07:57 IST" name="closedBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663767477266" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closedBrowser -->
-      </class> <!-- tempTestPack.TestNgTestClass -->
-    </test> <!-- FireFoxTest -->
   </suite> <!-- Suite -->
 </testng-results>

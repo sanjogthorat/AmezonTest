@@ -4,18 +4,12 @@
   <test name="ChromeTest">
   <parameter name ="browser" value ="Chrome"/>
     <classes>
+    <class name="tempTestPack.TestNgTestClass"/>
       <class name="tempTestPack.TestNgTestClass2"/>
-      <class name="tempTestPack.TestNgTestClass"/>
     </classes>
   </test> <!-- Test -->
   
-  <test name="FireFoxTest">
-  <parameter name ="browser" value ="FireFox"/>
-    <classes>
-      <class name="tempTestPack.TestNgTestClass2"/>
-      <class name="tempTestPack.TestNgTestClass"/>
-    </classes>
-  </test> <!-- Test -->
+ 
 </suite> <!-- Suite -->
 
 

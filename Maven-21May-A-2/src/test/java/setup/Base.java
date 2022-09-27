@@ -10,14 +10,14 @@ public class Base {
 	
 	public static WebDriver openChromeBrowser()
 	{
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sanjog\\Desktop\\Mannual And Automation Testing\\Selenium Libarary\\105\\chromedriver_win32\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\browsers\\chromedriver.exe");
 		  WebDriver driver = new ChromeDriver();
 		  return driver;
 	}
 	
 	public static WebDriver openfireFoxBrowser()
 	{
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Sanjog\\Desktop\\Mannual And Automation Testing\\Selenium Libarary\\Firefox\\geckodriver-v0.31.0-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\browsers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		return driver;
 	}
